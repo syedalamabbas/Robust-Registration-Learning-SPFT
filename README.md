@@ -1,8 +1,7 @@
-# Robust-Registration-Learning-SPFT
 #+TITLE: Robust Registration and Learning using Multi-radii Spherical Polar Fourier Transform.
 
-[[file:SPFTMotivationCat.png]
-[[file:MotivationCatSPFT.png]
+[[file:SPFTMotivationCat.png]]
+[[file:MotivationCatSPFT.png]]
 
 General comment: Most of the folders should have readme files that describe the contents and purpose of it.
 
