@@ -1,9 +1,9 @@
 #+TITLE: Robust Registration and Learning using Multi-radii Spherical Polar Fourier Transform.
 
-[[file:SPFTMotivationCat.png]]
-[[file:MotivationCatSPFT.png]]
+[[file:Figures/SPFTMotivationCat.png]]
+[[file:Figures/MotivationCatSPFT.png]]
 
-In the above figure: Left, surface data is transformed into voxels or volumetric representation using suitable resolution then holes are added, overlap between the original cat model and the distorted model is just about $36$ percentage i.e. only a small proportion of matching voxels exist even with a perfect alignment (for simplicity no rotation here). Right-Top row, SPFT based magnitude spherical images in increasing order of radii using original cat voxel model. Right-Bottom, SPFT data of the distorted model.
+In the above figure: Top, surface data is transformed into voxels or volumetric representation using suitable resolution then holes are added, overlap between the original cat model and the distorted model is just about $36$ percentage i.e. only a small proportion of matching voxels exist even with a perfect alignment (for simplicity no rotation here). Middle row, SPFT based magnitude spherical images in increasing order of radii using original cat voxel model. Bottom row, SPFT data of the distorted model.
 
 General comment: Most of the folders in this repository should have readme files that describe the contents and purpose of it.
 
