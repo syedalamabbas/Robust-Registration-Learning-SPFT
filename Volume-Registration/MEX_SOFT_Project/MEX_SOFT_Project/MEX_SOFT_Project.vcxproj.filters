@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{45813ae5-34bd-4aef-9a83-3a76ba6a34a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SO3FourierTransform">
+      <UniqueIdentifier>{e2acd9ea-bea5-4bcb-aa59-29d41456aad6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\csecond.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\makeweights.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\makeWigner.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\s2_primitive.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\utils_so3.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\wignerTransforms.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SO3FourierTransform\rotate_so3_fftw.c">
+      <Filter>SO3FourierTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="SO3FourierTransform\rotate_so3_utils.c">
+      <Filter>SO3FourierTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="SO3FourierTransform\s2_cospmls.c">
+      <Filter>SO3FourierTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="SO3FourierTransform\s2_legendreTransforms.c">
+      <Filter>SO3FourierTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="SO3FourierTransform\s2_semi_fly.c">
+      <Filter>SO3FourierTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="SO3FourierTransform\s2_semi_memo.c">
+      <Filter>SO3FourierTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="SO3FourierTransform\so3_correlate_fftw.c">
+      <Filter>SO3FourierTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="SO3FourierTransform\soft_fftw.c">
+      <Filter>SO3FourierTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="SO3FourierTransform\soft_fftw_nt.c">
+      <Filter>SO3FourierTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="SO3FourierTransform\soft_fftw_pc.c">
+      <Filter>SO3FourierTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="SO3FourierTransform\utils_vec_cx.c">
+      <Filter>SO3FourierTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="SO3FourierTransform\wignerTransforms_fftw.c">
+      <Filter>SO3FourierTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="SO3FourierTransform\wrap_s2_rotate_fftw.c">
+      <Filter>SO3FourierTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="SO3FourierTransform\wrap_soft_fftw.c">
+      <Filter>SO3FourierTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="SO3FourierTransform\wrap_soft_fftw_cor2.c">
+      <Filter>SO3FourierTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="test_soft_fftw_correlate2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MEXFunctionSource.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test_s2_rotate_fftw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HeaderFiles\complex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\cospmls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\csecond.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\fft_grids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\fft_grids_so3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\FFTcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\FST_semi_memo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\indextables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\legendreTransforms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\makeweights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\makeWigner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\newFCT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\oddweights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\OURmods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\OURperms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\permroots.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\rotate_so3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\rotate_so3_fftw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\rotate_so3_mem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\rotate_so3_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\s2_cospmls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\s2_legendreTransforms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\s2_primitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\s2_semi_fly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\s2_semi_memo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\so3_correlate_fftw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\so3_correlate_sym.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\soft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\soft_fftw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\soft_fftw_nt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\soft_fftw_pc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\soft_sym.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\utils_so3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\utils_vec_cx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\weights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\wignerTransforms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\wignerTransforms_fftw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\wignerTransforms_sym.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\wrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\wrap_fftw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="randomS2sig_bw8.dat">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="randomS2sigA_bw8.dat">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="myRotated.dat">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

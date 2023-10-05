@@ -1,0 +1,97 @@
+﻿Build started 11/16/2015 1:19:27 PM.
+     1>Project "C:\Users\Student\Google Drive\MATLAB\MEX_SOFT_Project\MEX_SOFT_Project\MEX_SOFT_Project.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Student\Google Drive\MATLAB\MEX_SOFT_Project\MEX_SOFT_Project\\FFTWLibraries" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MEX_SOFT_PROJECT_EXPORTS /D _WINDLL /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TC /errorReport:prompt Common\csecond.c Common\makeweights.c Common\makeWigner.c Common\s2_primitive.c Common\utils_so3.c Common\wignerTransforms.c MEXFunctionSource.c SO3FourierTransform\rotate_so3_fftw.c SO3FourierTransform\rotate_so3_utils.c SO3FourierTransform\s2_cospmls.c SO3FourierTransform\s2_legendreTransforms.c SO3FourierTransform\s2_semi_fly.c SO3FourierTransform\s2_semi_memo.c SO3FourierTransform\so3_correlate_fftw.c SO3FourierTransform\soft_fftw.c SO3FourierTransform\soft_fftw_nt.c SO3FourierTransform\soft_fftw_pc.c SO3FourierTransform\utils_vec_cx.c SO3FourierTransform\wignerTransforms_fftw.c SO3FourierTransform\wrap_s2_rotate_fftw.c SO3FourierTransform\wrap_soft_fftw.c SO3FourierTransform\wrap_soft_fftw_cor2.c test_s2_rotate_fftw.c test_soft_fftw_correlate2.c
+         csecond.c
+         makeweights.c
+         makeWigner.c
+         s2_primitive.c
+         utils_so3.c
+         wignerTransforms.c
+         MEXFunctionSource.c
+     1>MEXFunctionSource.c(48): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>MEXFunctionSource.c(49): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>MEXFunctionSource.c(50): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>MEXFunctionSource.c(261): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>MEXFunctionSource.c(262): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>MEXFunctionSource.c(263): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>MEXFunctionSource.c(29): warning C4101: 'tstop' : unreferenced local variable
+     1>MEXFunctionSource.c(29): warning C4101: 'tstart' : unreferenced local variable
+     1>MEXFunctionSource.c(412): warning C4133: 'function' : incompatible types - from 'FILE *' to 'const char *'
+     1>MEXFunctionSource.c(418): warning C4133: 'function' : incompatible types - from 'FILE *' to 'const char *'
+     1>MEXFunctionSource.c(424): warning C4133: 'function' : incompatible types - from 'FILE *' to 'const char *'
+     1>MEXFunctionSource.c(442): warning C4133: 'function' : incompatible types - from 'FILE *' to 'const char *'
+     1>MEXFunctionSource.c(445): warning C4013: 'rotateFctFFTW' undefined; assuming extern returning int
+     1>MEXFunctionSource.c(454): warning C4133: 'function' : incompatible types - from 'FILE *' to 'const char *'
+     1>MEXFunctionSource.c(469): warning C4133: 'function' : incompatible types - from 'FILE *' to 'const char *'
+     1>MEXFunctionSource.c(355): warning C4101: 'tstop' : unreferenced local variable
+     1>MEXFunctionSource.c(350): warning C4101: 'i' : unreferenced local variable
+     1>MEXFunctionSource.c(355): warning C4101: 'tstart' : unreferenced local variable
+     1>MEXFunctionSource.c(509): warning C4244: 'function' : conversion from 'double' to 'size_t', possible loss of data
+     1>MEXFunctionSource.c(510): warning C4244: 'function' : conversion from 'double' to 'size_t', possible loss of data
+     1>MEXFunctionSource.c(524): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         rotate_so3_fftw.c
+         rotate_so3_utils.c
+         s2_cospmls.c
+         s2_legendreTransforms.c
+         s2_semi_fly.c
+         s2_semi_memo.c
+         so3_correlate_fftw.c
+         soft_fftw.c
+         soft_fftw_nt.c
+         soft_fftw_pc.c
+         utils_vec_cx.c
+         wignerTransforms_fftw.c
+         wrap_s2_rotate_fftw.c
+         Compiling...
+         wrap_soft_fftw.c
+         wrap_soft_fftw_cor2.c
+     1>SO3FourierTransform\wrap_soft_fftw_cor2.c(312): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>SO3FourierTransform\wrap_soft_fftw_cor2.c(313): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>SO3FourierTransform\wrap_soft_fftw_cor2.c(314): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         test_s2_rotate_fftw.c
+         test_soft_fftw_correlate2.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Student\Google Drive\MATLAB\MEX_SOFT_Project\x64\Release\MEX_SOFT_Project.mexw64" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\MATLAB\R2015a\extern\lib\win64\microsoft" libut.lib libmx.lib libmex.lib libmat.lib "libfftw3-3.lib" "libfftw3f-3.lib" "libfftw3l-3.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Student\Google Drive\MATLAB\MEX_SOFT_Project\x64\Release\MEX_SOFT_Project.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Student\Google Drive\MATLAB\MEX_SOFT_Project\x64\Release\MEX_SOFT_Project.lib" /MACHINE:X64 /EXPORT:mexFunction /DLL x64\Release\csecond.obj
+         x64\Release\makeweights.obj
+         x64\Release\makeWigner.obj
+         x64\Release\s2_primitive.obj
+         x64\Release\utils_so3.obj
+         x64\Release\wignerTransforms.obj
+         x64\Release\MEXFunctionSource.obj
+         x64\Release\rotate_so3_fftw.obj
+         x64\Release\rotate_so3_utils.obj
+         x64\Release\s2_cospmls.obj
+         x64\Release\s2_legendreTransforms.obj
+         x64\Release\s2_semi_fly.obj
+         x64\Release\s2_semi_memo.obj
+         x64\Release\so3_correlate_fftw.obj
+         x64\Release\soft_fftw.obj
+         x64\Release\soft_fftw_nt.obj
+         x64\Release\soft_fftw_pc.obj
+         x64\Release\utils_vec_cx.obj
+         x64\Release\wignerTransforms_fftw.obj
+         x64\Release\wrap_s2_rotate_fftw.obj
+         x64\Release\wrap_soft_fftw.obj
+         x64\Release\wrap_soft_fftw_cor2.obj
+         x64\Release\test_s2_rotate_fftw.obj
+         x64\Release\test_soft_fftw_correlate2.obj
+            Creating library C:\Users\Student\Google Drive\MATLAB\MEX_SOFT_Project\x64\Release\MEX_SOFT_Project.lib and object C:\Users\Student\Google Drive\MATLAB\MEX_SOFT_Project\x64\Release\MEX_SOFT_Project.exp
+         Generating code
+         Finished generating code
+         MEX_SOFT_Project.vcxproj -> C:\Users\Student\Google Drive\MATLAB\MEX_SOFT_Project\x64\Release\MEX_SOFT_Project.mexw64
+       PostBuildEvent:
+         echo
+         copy "C:\Users\Student\Google Drive\MATLAB\MEX_SOFT_Project\MEX_SOFT_Project\\FFTWLibraries\libfftw3l-3.dll" "C:\Users\Student\Google Drive\MATLAB\MEX_SOFT_Project\x64\Release\"
+         copy "C:\Users\Student\Google Drive\MATLAB\MEX_SOFT_Project\MEX_SOFT_Project\\FFTWLibraries\libfftw3f-3.dll" "C:\Users\Student\Google Drive\MATLAB\MEX_SOFT_Project\x64\Release\"
+         copy "C:\Users\Student\Google Drive\MATLAB\MEX_SOFT_Project\MEX_SOFT_Project\\FFTWLibraries\libfftw3-3.dll" "C:\Users\Student\Google Drive\MATLAB\MEX_SOFT_Project\x64\Release\"
+         :VCEnd
+         ECHO is on.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\Student\Google Drive\MATLAB\MEX_SOFT_Project\MEX_SOFT_Project\MEX_SOFT_Project.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.43

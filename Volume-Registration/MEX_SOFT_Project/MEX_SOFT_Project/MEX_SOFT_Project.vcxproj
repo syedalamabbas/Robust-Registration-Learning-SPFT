@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{22AE4B0D-0274-4A0F-B165-CB4491238C9D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MEX_SOFT_Project</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\FFTWLibraries;$(MATLABROOT)\extern\include;$(IncludePath)</IncludePath>
+    <TargetExt>.mexw64</TargetExt>
+    <LibraryPath>$(ProjectDir)\FFTWLibraries;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)\FFTWLibraries;$(MATLABROOT)\extern\include;$(IncludePath)</IncludePath>
+    <TargetExt>.mexw64</TargetExt>
+    <LibraryPath>$(ProjectDir)\FFTWLibraries;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;MEX_SOFT_PROJECT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;MEX_SOFT_PROJECT_EXPORTS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)\FFTWLibraries;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(MATLABROOT)\extern\lib\win64\microsoft;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libut.lib;libmx.lib;libmex.lib;libmat.lib;libfftw3-3.lib;libfftw3f-3.lib;libfftw3l-3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/EXPORT:mexFunction %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo
+copy "$(ProjectDir)\FFTWLibraries\libfftw3l-3.dll" "$(OutDir)"
+copy "$(ProjectDir)\FFTWLibraries\libfftw3f-3.dll" "$(OutDir)"
+copy "$(ProjectDir)\FFTWLibraries\libfftw3-3.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;MEX_SOFT_PROJECT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;MEX_SOFT_PROJECT_EXPORTS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)\FFTWLibraries;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(MATLABROOT)\extern\lib\win64\microsoft;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libut.lib;libmx.lib;libmex.lib;libmat.lib;libfftw3-3.lib;libfftw3f-3.lib;libfftw3l-3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/EXPORT:mexFunction %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo
+copy "$(ProjectDir)\FFTWLibraries\libfftw3l-3.dll" "$(OutDir)"
+copy "$(ProjectDir)\FFTWLibraries\libfftw3f-3.dll" "$(OutDir)"
+copy "$(ProjectDir)\FFTWLibraries\libfftw3-3.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\csecond.c" />
+    <ClCompile Include="Common\makeweights.c" />
+    <ClCompile Include="Common\makeWigner.c" />
+    <ClCompile Include="Common\s2_primitive.c" />
+    <ClCompile Include="Common\utils_so3.c" />
+    <ClCompile Include="Common\wignerTransforms.c" />
+    <ClCompile Include="MEXFunctionSource.c" />
+    <ClCompile Include="SO3FourierTransform\rotate_so3_fftw.c" />
+    <ClCompile Include="SO3FourierTransform\rotate_so3_utils.c" />
+    <ClCompile Include="SO3FourierTransform\s2_cospmls.c" />
+    <ClCompile Include="SO3FourierTransform\s2_legendreTransforms.c" />
+    <ClCompile Include="SO3FourierTransform\s2_semi_fly.c" />
+    <ClCompile Include="SO3FourierTransform\s2_semi_memo.c" />
+    <ClCompile Include="SO3FourierTransform\so3_correlate_fftw.c" />
+    <ClCompile Include="SO3FourierTransform\soft_fftw.c" />
+    <ClCompile Include="SO3FourierTransform\soft_fftw_nt.c" />
+    <ClCompile Include="SO3FourierTransform\soft_fftw_pc.c" />
+    <ClCompile Include="SO3FourierTransform\utils_vec_cx.c" />
+    <ClCompile Include="SO3FourierTransform\wignerTransforms_fftw.c" />
+    <ClCompile Include="SO3FourierTransform\wrap_s2_rotate_fftw.c" />
+    <ClCompile Include="SO3FourierTransform\wrap_soft_fftw.c" />
+    <ClCompile Include="SO3FourierTransform\wrap_soft_fftw_cor2.c" />
+    <ClCompile Include="test_s2_rotate_fftw.c" />
+    <ClCompile Include="test_soft_fftw_correlate2.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HeaderFiles\complex.h" />
+    <ClInclude Include="HeaderFiles\cospmls.h" />
+    <ClInclude Include="HeaderFiles\csecond.h" />
+    <ClInclude Include="HeaderFiles\FFTcode.h" />
+    <ClInclude Include="HeaderFiles\fft_grids.h" />
+    <ClInclude Include="HeaderFiles\fft_grids_so3.h" />
+    <ClInclude Include="HeaderFiles\FST_semi_memo.h" />
+    <ClInclude Include="HeaderFiles\indextables.h" />
+    <ClInclude Include="HeaderFiles\legendreTransforms.h" />
+    <ClInclude Include="HeaderFiles\makeweights.h" />
+    <ClInclude Include="HeaderFiles\makeWigner.h" />
+    <ClInclude Include="HeaderFiles\newFCT.h" />
+    <ClInclude Include="HeaderFiles\oddweights.h" />
+    <ClInclude Include="HeaderFiles\OURmods.h" />
+    <ClInclude Include="HeaderFiles\OURperms.h" />
+    <ClInclude Include="HeaderFiles\permroots.h" />
+    <ClInclude Include="HeaderFiles\rotate_so3.h" />
+    <ClInclude Include="HeaderFiles\rotate_so3_fftw.h" />
+    <ClInclude Include="HeaderFiles\rotate_so3_mem.h" />
+    <ClInclude Include="HeaderFiles\rotate_so3_utils.h" />
+    <ClInclude Include="HeaderFiles\s2_cospmls.h" />
+    <ClInclude Include="HeaderFiles\s2_legendreTransforms.h" />
+    <ClInclude Include="HeaderFiles\s2_primitive.h" />
+    <ClInclude Include="HeaderFiles\s2_semi_fly.h" />
+    <ClInclude Include="HeaderFiles\s2_semi_memo.h" />
+    <ClInclude Include="HeaderFiles\so3_correlate_fftw.h" />
+    <ClInclude Include="HeaderFiles\so3_correlate_sym.h" />
+    <ClInclude Include="HeaderFiles\soft.h" />
+    <ClInclude Include="HeaderFiles\soft_fftw.h" />
+    <ClInclude Include="HeaderFiles\soft_fftw_nt.h" />
+    <ClInclude Include="HeaderFiles\soft_fftw_pc.h" />
+    <ClInclude Include="HeaderFiles\soft_sym.h" />
+    <ClInclude Include="HeaderFiles\utils_so3.h" />
+    <ClInclude Include="HeaderFiles\utils_vec_cx.h" />
+    <ClInclude Include="HeaderFiles\weights.h" />
+    <ClInclude Include="HeaderFiles\wignerTransforms.h" />
+    <ClInclude Include="HeaderFiles\wignerTransforms_fftw.h" />
+    <ClInclude Include="HeaderFiles\wignerTransforms_sym.h" />
+    <ClInclude Include="HeaderFiles\wrap.h" />
+    <ClInclude Include="HeaderFiles\wrap_fftw.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="myRotated.dat" />
+    <None Include="randomS2sigA_bw8.dat" />
+    <None Include="randomS2sig_bw8.dat" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

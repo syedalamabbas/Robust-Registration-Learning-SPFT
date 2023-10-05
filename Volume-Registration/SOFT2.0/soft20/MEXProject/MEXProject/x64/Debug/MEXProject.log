@@ -1,0 +1,69 @@
+﻿  wrap_soft_sym_cor2.c
+wrap_soft_sym_cor2.c(240): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+wrap_soft_sym_cor2.c(241): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+wrap_soft_sym_cor2.c(242): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+  wrap_soft_sym.c
+  wrap_soft.c
+  wrap_s2_rotate.c
+  wignerTransforms_sym.c
+  wignerTransforms.c
+  weights.c
+  utils_so3.c
+  test_soft_sym_correlate2_wrap.c
+  test_soft_sym_correlate2.c
+  soft_sym.c
+  soft.c
+  so3_correlate_sym.c
+  s2_primitive.c
+  rotate_so3_mem.c
+  rotate_so3.c
+  permroots.c
+  OURperms.c
+  OURmods.c
+  oddweights.c
+  Generating Code...
+  Compiling...
+  newFCT.c
+newFCT.c(274): warning C4018: '<' : signed/unsigned mismatch
+newFCT.c(298): warning C4018: '<=' : signed/unsigned mismatch
+newFCT.c(300): warning C4018: '<' : signed/unsigned mismatch
+newFCT.c(371): warning C4018: '<' : signed/unsigned mismatch
+  MEXProject.c
+MEXProject.c(79): warning C4244: 'function' : conversion from 'double' to 'size_t', possible loss of data
+MEXProject.c(80): warning C4244: 'function' : conversion from 'double' to 'size_t', possible loss of data
+MEXProject.c(81): warning C4244: 'function' : conversion from 'double' to 'size_t', possible loss of data
+MEXProject.c(82): warning C4244: 'function' : conversion from 'double' to 'size_t', possible loss of data
+MEXProject.c(83): warning C4244: 'function' : conversion from 'double' to 'size_t', possible loss of data
+MEXProject.c(84): warning C4244: 'function' : conversion from 'double' to 'size_t', possible loss of data
+MEXProject.c(85): warning C4244: 'function' : conversion from 'double' to 'size_t', possible loss of data
+MEXProject.c(86): warning C4244: 'function' : conversion from 'double' to 'size_t', possible loss of data
+MEXProject.c(87): warning C4244: 'function' : conversion from 'double' to 'size_t', possible loss of data
+MEXProject.c(88): warning C4244: 'function' : conversion from 'double' to 'size_t', possible loss of data
+MEXProject.c(89): warning C4244: 'function' : conversion from 'double' to 'size_t', possible loss of data
+MEXProject.c(90): warning C4244: 'function' : conversion from 'double' to 'size_t', possible loss of data
+MEXProject.c(94): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+MEXProject.c(95): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+MEXProject.c(116): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+MEXProject.c(123): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+MEXProject.c(124): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+MEXProject.c(133): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+MEXProject.c(134): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+MEXProject.c(154): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+MEXProject.c(165): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+MEXProject.c(187): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+MEXProject.c(188): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+MEXProject.c(189): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+MEXProject.c(190): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+  makeWigner.c
+  makeweights.c
+  legendreTransforms.c
+  indextables.c
+  FST_semi_memo.c
+  fft_grids_so3.c
+  fft_grids.c
+  FFTcode.c
+  csecond.c
+  cospmls.c
+  Generating Code...
+     Creating library C:\Users\Syed Alam\Google Drive\MATLAB\SOFT2.0\soft20\MEXProject\x64\Debug\MEXProject.lib and object C:\Users\Syed Alam\Google Drive\MATLAB\SOFT2.0\soft20\MEXProject\x64\Debug\MEXProject.exp
+  MEXProject.vcxproj -> C:\Users\Syed Alam\Google Drive\MATLAB\SOFT2.0\soft20\MEXProject\x64\Debug\MEXProject.mexw64
