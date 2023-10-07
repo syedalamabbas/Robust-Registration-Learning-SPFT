@@ -33,26 +33,26 @@ Most of the folders in this repository should have readme files that describe th
 
 Of some of the software/sources used, in no particular order, and please consider that each of them would have their own respective licenses:
 
-1. SOFT: SO(3) Fourier Transforms
+[1] SOFT: SO(3) Fourier Transforms
 - Kostelec, P.J., Rockmore, D.N., 2008. Ffts on the rotation group. Journal of Fourier analysis and applications 14, 145-179.
 - Kostelec, P.J., 2015. The Soft Package. Retrieved from, http://www.cs.dartmouth.edu/ geelong/soft/.
-2. spherical-cnn
+[2] spherical-cnn
 - Esteves, C., Allen-Blanchette, C., Makadia, A., Daniilidis, K., 2018. Learning so (3) equivariant representations with spherical
 cnns, in: Proceedings of the European Conference on Computer Vision (ECCV), pp. 52-68.
 - https://github.com/daniilidis-group/spherical-cnn
-3. R-SCNN
+[3] R-SCNN
 - Mukhaimar, A., Tennakoon, R., Lai, C.Y., Hoseinnezhad, R., Bab-Hadiashar, A., 2022. Robust object classification approach
 using spherical harmonics. IEEE Access 10, 21541-21553.
 - https://github.com/AymanMukh/R-SCNN
-4.  2D_3D_PolarFourierTransform
+[4]  2D_3D_PolarFourierTransform
 - Abbas, S.A., Sun, Q., Foroosh, H., 2016. An exact and fast computation of discrete fourier transform for polar and spherical
 grid. IEEE Transactions on Signal Processing 65, 2033-2048.
 - https://github.com/syedalamabbas/2D_3D_PolarFourierTransform
-5. Rotation Estimation
+[5] Rotation Estimation
 - Althloothi, S., Mahoor, M.H., Voyles, R.M., 2013. A robust method for rotation estimation using spherical harmonics
 representation. IEEE Transactions on Image Processing 22, 2306-2316.
-6. ModelNet40 dataset 
+[6] ModelNet40 dataset 
 - Wu, Z., Song, S., Khosla, A., Yu, F., Zhang, L., Tang, X., Xiao, J., 2015. 3d shapenets: A deep representation for volumetric shapes, in: Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 1912-1920.
-7. Princeton Shape Benchmark (PSB)
+[7] Princeton Shape Benchmark (PSB)
 - Shilane, P., Min, P., Kazhdan, M., Funkhouser, T., 2004. The princeton shape benchmark, in: Proceedings Shape Modeling
 Applications, 2004., IEEE. pp. 167-178.
