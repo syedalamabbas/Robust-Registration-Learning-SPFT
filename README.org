@@ -14,18 +14,18 @@ Most of the folders in this repository should have readme files that describe th
 
 * Overall organization
 
-- SPFT-ArrayFire has C++ and ArrayFire library code, which is common for both volumetric registration as well as for machine learning, to simply compute the SPFT given volumes. However it is only for the machine learning work, involving tensorflow, python and jupyter   that we had to extract this. Much of the experiments for volumetric registration were conducted in MATLAB where both SPFT and SOFT C/C++ projects had to be interfaced as MEX libraries. 
-- For Machine Learning:
--- ModelNet40 preprocessing contains the scripts necessary to obtain just the magnitude spectrum from multi-radii SPFT. 
--- It also contains a helpful script to create tensorflow record that is necessary and used to train and test the classification  network, the slightly modified spherical CNN. Much of the data examples, both in archive as well as the extracted images, had to be erased for the repository, otherwise it was bloating it over many GBs and causing git push unexpected hung-up failures. 
--- Common includes some useful and helpful MATLAB scripts extracted from the conventional volumetric registration algorithm for separately visualizing the images in this setting.
--- Network used, after all the preprocessing and generation of tfrecords from the juypter notebook, is R-SCNN see external source link below as noted in the paper. 
-- For Volume Registration:
--- SOFT2.0 contains the base C code for computing spherical correlations given two equiangular grids on a single sphere.
--- SOFT_MEX is a project that allows for create of MEX file to be used in MATLAB with the registration scripts, this helps in visualizing the correlation results nicely in MATLAB.
--- Rotation Estimation folder, take a look at this file TestMySOFTForComparisonPurposes.m
--- 3D_SphericalPolarFT_Registration should have many helpful functions and useful scripts, much of it will try to add other folders from https://github.com/syedalamabbas/2D_3D_PolarFourierTransform or MEX_SOFT project that is included.
--- Finally, take a look at this file/function ComputeSOFTRotation_SphericalPolarFT
+[1] SPFT-ArrayFire has C++ and ArrayFire library code, which is common for both volumetric registration as well as for machine learning, to simply compute the SPFT given volumes. However it is only for the machine learning work, involving tensorflow, python and jupyter   that we had to extract this. Much of the experiments for volumetric registration were conducted in MATLAB where both SPFT and SOFT C/C++ projects had to be interfaced as MEX libraries. 
+[2] For Machine Learning:
+- ModelNet40 preprocessing contains the scripts necessary to obtain just the magnitude spectrum from multi-radii SPFT. 
+- It also contains a helpful script to create tensorflow record that is necessary and used to train and test the classification  network, the slightly modified spherical CNN. Much of the data examples, both in archive as well as the extracted images, had to be erased for the repository, otherwise it was bloating it over many GBs and causing git push unexpected hung-up failures. 
+- Common includes some useful and helpful MATLAB scripts extracted from the conventional volumetric registration algorithm for separately visualizing the images in this setting.
+- Network used, after all the preprocessing and generation of tfrecords from the juypter notebook, is R-SCNN see external source link below as noted in the paper. 
+[3] For Volume Registration:
+- SOFT2.0 contains the base C code for computing spherical correlations given two equiangular grids on a single sphere.
+- SOFT_MEX is a project that allows for create of MEX file to be used in MATLAB with the registration scripts, this helps in visualizing the correlation results nicely in MATLAB.
+- Rotation Estimation folder, take a look at this file TestMySOFTForComparisonPurposes.m
+- 3D_SphericalPolarFT_Registration should have many helpful functions and useful scripts, much of it will try to add other folders from https://github.com/syedalamabbas/2D_3D_PolarFourierTransform or MEX_SOFT project that is included.
+- Finally, take a look at this file/function ComputeSOFTRotation_SphericalPolarFT
 
 
 * Acknowledgements
