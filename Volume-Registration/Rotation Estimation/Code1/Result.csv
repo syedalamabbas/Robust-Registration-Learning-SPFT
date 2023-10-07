@@ -1,0 +1,140 @@
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Beethoven_obj ,  0.00 , 0.00  , 4.69 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ Beethoven_obj ,  0.07 , 0.08  , 4.60 ,0.00, 0.19, 0.03, 23.00 , 34.81 ,  57.97 , 0.187581294 
+ Beethoven_obj ,  0.08 , 0.10  , 4.24 ,0.44, -0.13, -0.46, 34.56 , 34.13 ,  58.46 , 0.646306139 
+ Beethoven_obj ,  0.05 , 0.05  , 4.26 ,0.22, 0.37, -0.24, 57.78 , 34.63 ,  6.24 , 0.492349116 
+ Beethoven_obj ,  12.06 , 35.31  , 4.17 ,-26.34, 5.72, 60.00, 87.34 , 34.28 ,  35.00 , 65.775991937 
+ Chair_obj ,  0.00 , 0.00  , 0.29 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ Chair_obj ,  0.12 , 0.05  , 0.32 ,0.00, 0.04, 0.25, 23.00 , 34.96 ,  61.75 , 0.250760360 
+ Chair_obj ,  0.13 , 0.05  , 0.29 ,0.44, -0.16, -0.12, 34.56 , 34.16 ,  62.12 , 0.482028280 
+ Chair_obj ,  0.12 , 0.05  , 0.29 ,0.22, 0.04, -0.06, 57.78 , 34.96 ,  31.06 , 0.233100807 
+ Chair_obj ,  0.12 , 0.06  , 0.29 ,-0.34, 0.20, -0.08, 87.34 , 34.80 ,  9.08 , 0.402497857 
+ Gargoyle_obj ,  0.00 , 0.00  , 0.20 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ Gargoyle_obj ,  0.02 , 0.00  , 0.19 ,0.00, -0.42, 0.39, 23.00 , 34.42 ,  58.61 , 0.576431892 
+ Gargoyle_obj ,  0.03 , 0.00  , 0.21 ,0.44, 0.21, -0.41, 34.56 , 34.79 ,  61.41 , 0.634701902 
+ Gargoyle_obj ,  0.00 , 0.00  , 0.20 ,0.22, 0.34, -0.29, 57.78 , 34.66 ,  2.29 , 0.498449396 
+ Gargoyle_obj ,  0.03 , 0.00  , 0.19 ,-0.34, 0.15, 0.22, 87.34 , 34.85 ,  59.78 , 0.434432680 
+ Hippo_obj ,  0.00 , 0.00  , 2.02 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ Hippo_obj ,  0.05 , 0.04  , 1.98 ,0.00, 0.32, -0.50, 23.00 , 34.68 ,  48.50 , 0.590424347 
+ Hippo_obj ,  0.06 , 0.07  , 1.98 ,0.44, 0.26, -0.10, 34.56 , 34.74 ,  25.10 , 0.519704893 
+ Hippo_obj ,  0.08 , 0.09  , 1.99 ,0.22, 0.34, 0.04, 57.78 , 34.66 ,  10.96 , 0.411139953 
+ Hippo_obj ,  0.06 , 0.06  , 2.02 ,-0.34, 0.29, -0.04, 87.34 , 34.71 ,  2.04 , 0.450999284 
+ PcmHouse_obj ,  0.00 , 0.00  , 1.12 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ PcmHouse_obj ,  0.01 , 0.01  , 1.16 ,0.00, -0.28, 0.05, 23.00 , 34.28 ,  2.95 , 0.280560387 
+ PcmHouse_obj ,  0.03 , 0.03  , 1.13 ,0.44, -0.10, 0.30, 34.56 , 34.10 ,  52.70 , 0.540606759 
+ PcmHouse_obj ,  0.04 , 0.04  , 1.19 ,0.22, 0.31, -0.29, 57.78 , 34.69 ,  20.29 , 0.477683303 
+ PcmHouse_obj ,  0.08 , 0.07  , 1.12 ,-0.34, 0.05, -0.20, 87.34 , 34.95 ,  2.20 , 0.399897737 
+ Skull_obj ,  0.00 , 0.00  , 4.45 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ Skull_obj ,  0.04 , 0.04  , 4.46 ,0.00, -0.44, -0.42, 23.00 , 34.44 ,  24.42 , 0.607189701 
+ Skull_obj ,  0.07 , 0.07  , 4.49 ,0.44, 0.23, 0.11, 34.56 , 34.77 ,  50.89 , 0.509976052 
+ Skull_obj ,  0.06 , 0.07  , 4.45 ,0.22, -0.19, -0.34, 57.78 , 34.19 ,  31.34 , 0.449768935 
+ Skull_obj ,  5.86 , 35.90  , 4.49 ,-0.34, -6.45, 60.64, 87.34 , 34.45 ,  41.36 , 60.978534898 
+ ateneal_obj ,  0.00 , 0.00  , 1.36 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ ateneal_obj ,  0.05 , 0.05  , 1.31 ,0.00, 0.29, -0.30, 23.00 , 34.71 ,  48.30 , 0.417657027 
+ ateneal_obj ,  0.05 , 0.05  , 1.36 ,0.44, -0.28, 0.50, 34.56 , 34.28 ,  43.50 , 0.720291238 
+ ateneal_obj ,  0.08 , 0.08  , 1.31 ,0.22, 0.34, -0.41, 57.78 , 34.66 ,  10.41 , 0.577173602 
+ ateneal_obj ,  0.12 , 0.12  , 1.35 ,-0.34, -0.12, 0.10, 87.34 , 34.12 ,  31.90 , 0.375130216 
+ ateneam_obj ,  0.00 , 0.00  , 2.73 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ ateneam_obj ,  0.03 , 0.03  , 2.75 ,0.00, 0.04, 0.22, 23.00 , 34.96 ,  21.78 , 0.219044400 
+ ateneam_obj ,  0.03 , 0.03  , 2.81 ,0.44, 0.41, -0.32, 34.56 , 34.59 ,  14.32 , 0.685970549 
+ ateneam_obj ,  0.06 , 0.06  , 2.72 ,0.22, 0.25, -0.33, 57.78 , 34.75 ,  16.33 , 0.465404191 
+ ateneam_obj ,  0.08 , 0.08  , 2.74 ,-0.34, 0.49, 0.26, 87.34 , 34.51 ,  44.74 , 0.653303860 
+ ateneav_obj ,  0.00 , 0.00  , 1.31 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ ateneav_obj ,  0.06 , 0.07  , 1.32 ,0.00, 0.11, -0.39, 23.00 , 34.89 ,  61.39 , 0.409452904 
+ ateneav_obj ,  0.02 , 0.02  , 1.31 ,0.44, 0.45, 0.13, 34.56 , 34.55 ,  8.87 , 0.644210297 
+ ateneav_obj ,  0.04 , 0.04  , 1.32 ,0.22, -0.15, -0.48, 57.78 , 34.15 ,  16.48 , 0.549177669 
+ ateneav_obj ,  0.07 , 0.07  , 1.31 ,-0.34, 0.16, -0.27, 87.34 , 34.84 ,  16.27 , 0.464843605 
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Beethoven_obj ,  0.00 , 0.00  , 90.49 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ Beethoven_obj ,  0.04 , 0.04  , 66.03 ,0.00, 0.19, 0.41, 23.00 , 34.81 ,  15.59 , 0.454113581 
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Beethoven_obj ,  0.00 , 0.00  , 414.64 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Beethoven_obj ,  0.00 , 0.00  , 5.92 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ Beethoven_obj ,  0.07 , 0.08  , 6.56 ,0.00, 0.19, 0.03, 23.00 , 34.81 ,  57.97 , 0.187581294 
+ Beethoven_obj ,  0.08 , 0.10  , 4.26 ,0.44, -0.13, -0.46, 34.56 , 34.13 ,  58.46 , 0.646306139 
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Beethoven_obj ,  0.00 , 0.00  , 4.35 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Beethoven_obj ,  0.00 , 0.00  , 4.40 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Beethoven_obj ,  0.00 , 0.00  , 4.31 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Beethoven_obj ,  0.00 , 0.00  , 4.34 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ Beethoven_obj ,  0.04 , 0.04  , 3.99 ,0.00, -0.17, 0.20, 23.00 , 34.17 ,  6.80 , 0.262319436 
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Beethoven_obj ,  0.00 , 0.00  , 4.87 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ Beethoven_obj ,  0.07 , 0.08  , 4.44 ,0.00, 0.19, 0.03, 23.00 , 34.81 ,  57.97 , 0.187581294 
+ Beethoven_obj ,  0.08 , 0.10  , 4.84 ,0.44, -0.13, -0.46, 34.56 , 34.13 ,  58.46 , 0.646306139 
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Beethoven_obj ,  0.00 , 0.00  , 61.85 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ Beethoven_obj ,  0.03 , 0.03  , 78.73 ,0.00, -0.13, -0.21, 23.00 , 34.13 ,  5.21 , 0.247041992 
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Beethoven_obj ,  0.00 , 0.00  , 5.07 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ Object Name ,  RMSD , RMSD0  , Time(sec), Delta_x, Delta_y, Delta_z, Actual_x , Actual_y , Actual_z ,Norm_Difference 
+
+ horse01_obj ,  0.00 , 0.00  , 8.55 ,0.00, 0.00, 0.00, 0.00 , 0.00 ,  0.00 , 0.000000000 
