@@ -1,5 +1,7 @@
 #+TITLE: Robust Registration and Learning using Multi-radii Spherical Polar Fourier Transform.
 
+Article Link in Signal Processing, Volume 217, April 2024, 109309: https://www.sciencedirect.com/science/article/abs/pii/S0165168423003833
+
 [[file:Figures/SPFTMotivationCat.png]]
 [[file:Figures/MotivationCatSPFT.png]]
 
@@ -8,6 +10,25 @@
 - Top, surface data is transformed into voxels or volumetric representation using suitable resolution then holes are added, overlap between the original cat model and the distorted model is just about $36$ percentage i.e. only a small proportion of matching voxels exist even with a perfect alignment (for simplicity no rotation here). 
 - Middle row, SPFT based magnitude spherical images in increasing order of radii using original cat voxel model. 
 - Bottom row, SPFT data of the distorted model.
+
+* Abstract
+
+This paper presents effective methods using spherical polar Fourier transform data for two different appli-
+cations, with active areas of research, one as a conventional volumetric registration algorithm and other as
+a machine learning classification network. For registration purposes the proposed method has the following
+advantageous features: (i) it is a unique and effective technique for estimating up to 7 degrees of freedom
+for 3D volumetric registration, that has a closed-form solution for 3D rotation estimation, and which does not
+resort to recurrence relations or search for point correspondences between two objects/volumes, (ii) it allows
+for robust rotation estimation determined simultaneously on multiple spectral spheres, therefore complete stack
+of such spherical layers can be processed concurrently to obtain accurate and optimal all three angles, and
+(iii) it has the ability to handle arbitrary large rotation angles, is shown to be robust against the presence of
+noise, holes/missing data, and partial overlaps. We demonstrate the effectiveness of our solution with extensive
+experimentation, including a set of scanned MRI images, a crashed car parking dataset, and the Princeton shape
+benchmark dataset with hundreds of 3D objects. For the classification solution we modify and adapt an existing
+network in the literature, a type of spherical convolutional network, that is suitable for processing multi-radii
+spectral spherical data, and showcase the resulting robustness achieved in classification of objects from the
+ModelNet40 dataset, especially in the presence of outliers, additive noise, and missing data.
+
 
 * General comment 
 Most of the folders in this repository should have readme files that describe the contents and purpose of it.
